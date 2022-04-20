@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/OmarGalindoJ/playbook/issues"
   },
-  "homepage": "https://github.com/OmarGalindoJ/playbook#readme"
+  "homepage": "https://github.com/OmarGalindoJ/playbook#readme",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
 }
