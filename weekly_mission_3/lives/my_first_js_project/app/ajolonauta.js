@@ -4,4 +4,4 @@ class Ajolonauta{
     }
 }
 
-module.exports = Ajolonauta //Forma de esportet un módulo
+module.exports = Ajolonauta //Forma de exportar un módulo
