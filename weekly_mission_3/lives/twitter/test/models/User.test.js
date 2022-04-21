@@ -1,6 +1,9 @@
+const User = require("../../app/models/User")
 
-describe("Prueba de jest" , () => {
-    test("Prueba 1", () => {
-        expect(10).toBe(9)
+describe("Test para User" , () => {
+    test("Creación de User", () => {
+        const user = new User (1, "viejogro" , "OmarGalindoJ" , "Bio" , "dateCreated" , "lastUpdate")
+        expect(user.id).toBe(1)
+        expect(user.username).toBe("viejogro")
     })
 })
